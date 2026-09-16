@@ -428,7 +428,7 @@ header .navbar a:hover, header .navbar a.active {
     max-width: 800px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 .contact .contact-card {
@@ -650,6 +650,7 @@ header .navbar a:hover, header .navbar a.active {
     }
     .home .content h2 { font-size: 3.5rem; }
     .home .content p { font-size: 2rem; }
+    .contact .row { grid-template-columns: 1fr; }
 }
 @media (max-width:450px) {
     html { font-size: 50%; }
